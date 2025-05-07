@@ -41,7 +41,9 @@ Working Directory → Stage(add) → Commit → Repository
 
 ### ✅ 주요 명령 및 개념
 - `commit`: 스냅샷 저장 (메시지 규칙 중요)  
-- `merge`: 브랜치 병합 (3-way merge 충돌 가능)  
+- `merge`: 브랜치 병합 (3-way merge 충돌 가능)
+### ✅ 안 써보던 내용 
+> https://learngitbranching.js.org/?locale=ko 연습해보자
 - `cherry-pick`: 원하는 commit만 선택 병합  
 - `rebase`: 브랜치 이력 정리, 충돌시 ours/theirs 주의  
 - `revert`: 특정 commit 취소  
@@ -99,13 +101,3 @@ Working Directory → Stage(add) → Commit → Repository
 수집(ETL) → 저장(Data Lake) → 분석(Redshift) → 시각화(Kibana)
 ```
 - Kinesis, Glue, Elasticsearch 등 활용
-
-### ✅ 성능 측정 지표 예시
-
-| 항목 | 설명 |
-|------|------|
-| ping | 네트워크 응답속도 |
-| CPU 사용률 | 처리 효율 |
-| 디스크 속도 | 데이터 입출력 성능 |
-| 네트워크 I/O | 데이터 전송 속도 |
-| 처리량 | 대용량 처리 가능 여부 (ex. 금융권 10GB 압축 해제/전송 등) |
